@@ -60,7 +60,7 @@ Gilad Abudi
 ## Screenshots
 
 <p align="center">
-  <img src="assets/i1.png" width="30%" />
-  <img src="assets/i2.png" width="30%" />
-  <img src="assets/i3.png" width="30%" />
+  <img src="assets/i1.jpeg" width="30%" />
+  <img src="assets/i2.jpeg" width="30%" />
+  <img src="assets/i3.jpeg" width="30%" />
 </p>
