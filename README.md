@@ -1,34 +1,58 @@
 # Budget App
 
-A modern web application for household budget management, tracking expenses and incomes, managing tasks, shopping lists, and a weekly family schedule with real-time cloud synchronization.
+A comprehensive, full-stack web application designed for personal finance management, budgeting, and daily task organization.
 
-## Tech Stack
-* **Frontend:** React, Vite
-* **Styling:** Tailwind CSS
-* **Icons:** Lucide React
-* **Database & Sync:** Firebase Firestore (Real-time synchronization)[cite: 1]
-* **Deployment:** Vercel[cite: 1]
+## 🌟 Features
 
-## Core Features[cite: 1]
-* **Financial Dashboard:** Monthly summaries, budget goals, and category expense analysis[cite: 1].
-* **Transaction Management:** Add, delete, and filter expenses, incomes, and savings[cite: 1].
+* **Financial Dashboard:** A central overview of your financial health, providing quick insights and summaries.
+* **Transaction Management:** Track and categorize your income and expenses seamlessly.
 * **Quick Tools:**
-  * **Weekly Schedule:** Plan current and next week's schedule with real-time sync[cite: 1].
-  * **Task List:** Manage categorized household tasks[cite: 1].
-  * **Smart Shopping List:** Toggle between editing and shopping modes with synchronized checklist items[cite: 1].
-* **Recurring Payments & Vouchers:** Track fixed periodic payments and manage vouchers[cite: 1].
+  * **Shopping List:** Manage your grocery and daily shopping needs.
+  * **Task List:** Track your ongoing and pending tasks.
+  * **Vouchers:** Store and organize your digital vouchers and coupons.
+  * **Weekly Schedule:** Plan your week efficiently with an integrated planner.
 
-## Project Structure[cite: 1]
-```text
-budget-app/
-├── src/
-│   ├── components/
-│   │   ├── dashboard/    # Summary, goals, and category components[cite: 1]
-│   │   ├── features/     # Quick tools, tasks, shopping, and vouchers[cite: 1]
-│   │   ├── layout/       # Layout wrappers and headers[cite: 1]
-│   │   └── transactions/ # Forms and transaction list management[cite: 1]
-│   ├── hooks/            # Custom hooks for state management and Firebase sync[cite: 1]
-│   ├── services/         # Firebase service initialization[cite: 1]
-│   └── utils/            # Helper functions, financial calculations, and categories[cite: 1]
-├── public/               # Static assets and manifest[cite: 1]
-└── package.json          # Project dependencies[cite: 1]
+## 🚀 Tech Stack
+
+* **Frontend:** React, Tailwind CSS, Vite
+* **Backend & Database:** Firebase (Firestore, Authentication)
+* **Icons:** Lucide React
+* **Deployment:** Vercel
+* **Tooling:** ESLint, Git Hooks (Husky/Native hooks)
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+* [Node.js](https://nodejs.org/) (v18 or higher recommended)
+* npm, yarn, or pnpm
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/budget-app.git](https://github.com/your-username/budget-app.git)
+   cd budget-app
+Install dependencies:
+
+Bash
+npm install
+Set up Environment Variables:
+Create a local environment file based on the provided example.
+
+Bash
+cp .env.example .env.local
+Open .env.local and fill in your Firebase configuration keys and any other required secrets.
+
+Run the development server:
+
+Bash
+npm run dev
+The application will be available at http://localhost:5173.
+
+📦 Deployment
+This project is optimized for deployment on Vercel.
+Simply link the repository to your Vercel account, and it will automatically detect the Vite build settings (npm run build). Remember to add your .env.local variables to the Vercel project settings.
+
+👨‍💻 Author
+Gilad Abudi
